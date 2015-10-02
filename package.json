@@ -1,0 +1,40 @@
+{
+  "name": "nowtv-base-toolkit",
+  "version": "0.0.1",
+  "description": "NOW TV Base Toolkit",
+  "main": "scss/toolkit.scss",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.4"
+  },
+  "devDependencies": {
+    "autoprefixer-loader": "^3.1.0",
+    "css-loader": "^0.19.0",
+    "extract-text-webpack-plugin": "^0.8.2",
+    "file-loader": "^0.8.4",
+    "node-sass": "^3.3.3",
+    "sass-loader": "^3.0.0",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.12.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sky-uk/nowtv-base-toolkit.git"
+  },
+  "keywords": [
+    "NowTV",
+    "toolkit",
+    "legend",
+    "pizza",
+    "classic"
+  ],
+  "author": "Meator",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sky-uk/nowtv-base-toolkit/issues"
+  },
+  "homepage": "https://github.com/sky-uk/nowtv-base-toolkit#readme"
+}
