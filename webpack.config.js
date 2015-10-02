@@ -11,6 +11,7 @@ module.exports = [
         module: {
             loaders: [
                 {test: /\.scss$/, loader: ExtractTextPlugin.extract("css!autoprefixer?browsers=last 2 versions!sass?indentedSyntax")},
+                {test: /\.svg$/, loader: 'url-loader'},
                 {test: /\.woff(2)?$/, loader: "url-loader?mimetype=application/font-woff"},
                 {test: /\.ttf?$/, loader: "url-loader?limit=100000&mimetype=application/x-font-ttf"}
             ]

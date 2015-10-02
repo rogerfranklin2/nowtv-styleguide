@@ -74,9 +74,29 @@ body {
   cursor: default;
   opacity: 0.3 !important; }
 
+.now-input {
+  border: 1px solid #e6e8ed;
+  color: #424247;
+  border-radius: 4px;
+  width: 100%;
+  padding: 10px;
+  height: 36px;
+  font-size: 14px;
+  box-sizing: border-box;
+  outline: none; }
+  .now-input:focus {
+    background-color: white;
+    border-color: #30af3f;
+    color: #424247; }
+  .now-input.error {
+    background-color: white;
+    color: #ef3a35;
+    border-color: #ef3a35; }
+  .now-input:disabled {
+    background-color: #e6e8ed; }
+
 .now-link {
   color: #cbced3;
-  font-size: 16px;
   text-decoration: underline; }
   .now-link:hover {
     opacity: 0.8;
@@ -86,3 +106,37 @@ body {
   .now-link.disabled {
     opacity: 0.3;
     cursor: default; }
+
+.now-select {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: 5%;
+  background-position: 95%;
+  border: 1px solid #e6e8ed;
+  border-radius: 4px;
+  width: 300px;
+  padding: 10px 40px 10px 10px;
+  height: 38px;
+  line-height: 16px;
+  font-size: 14px;
+  box-sizing: border-box;
+  outline: none;
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4xLjEsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAxMiA3IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMiA3IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPsKgDQoJPHBhdGggZmlsbD0iIzMwQUYzRiIgZD0iTTYsN0M1LjcsNyw1LjUsNi45LDUuMyw2LjdsLTUtNWMtMC40LTAuNC0wLjQtMSwwLTEuNHMxLTAuNCwxLjQsMEw2LDQuNmw0LjMtNC4zYzAuNC0wLjQsMS0wLjQsMS40LDANCgkJczAuNCwxLDAsMS40bC01LDVDNi41LDYuOSw2LjMsNyw2LDd6Ii8+DQo8L2c+DQo8Zz4NCgk8cGF0aCBmaWxsPSIjMzBBRjNGIiBkPSJNLTI1LjcsMTAuNGMtMC4zLDAtMC41LTAuMS0wLjctMC4zbC00LjgtNC44Yy0wLjQtMC40LTAuNC0xLDAtMS40czEtMC40LDEuNCwwbDQuMSw0LjFsNC4xLTQuMQ0KCQljMC40LTAuNCwxLTAuNCwxLjQsMHMwLjQsMSwwLDEuNGwtNC44LDQuOEMtMjUuMSwxMC4zLTI1LjQsMTAuNC0yNS43LDEwLjR6Ii8+DQo8L2c+DQo8Zz4NCgk8cGF0aCBmaWxsPSIjQ0NDRkQ0IiBkPSJNMjcsMjQuNGMtMC4zLDAtMC41LTAuMS0wLjctMC4zbC00LjgtNC44Yy0wLjQtMC40LTAuNC0xLDAtMS40czEtMC40LDEuNCwwTDI3LDIybDQuMS00LjENCgkJYzAuNC0wLjQsMS0wLjQsMS40LDBzMC40LDEsMCwxLjRsLTQuOCw0LjhDMjcuNSwyNC4zLDI3LjMsMjQuNCwyNywyNC40eiIvPg0KPC9nPg0KPC9zdmc+DQo=);
+  -moz-appearance: none !important;
+  -webkit-appearance: none !important; }
+  .now-select:disabled {
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4xLjEsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAxMiA3IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMiA3IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxwYXRoIGZpbGw9IiNDQ0NGRDQiIGQ9Ik02LDdDNS43LDcsNS41LDYuOSw1LjMsNi43bC01LTVjLTAuNC0wLjQtMC40LTEsMC0xLjRzMS0wLjQsMS40LDBMNiw0LjZsNC4zLTQuM2MwLjQtMC40LDEtMC40LDEuNCwwDQoJCXMwLjQsMSwwLDEuNGwtNSw1QzYuNSw2LjksNi4zLDcsNiw3eiIvPg0KPC9nPg0KPGc+DQoJPHBhdGggZmlsbD0iIzMwQUYzRiIgZD0iTS0yNS43LDEwLjRjLTAuMywwLTAuNS0wLjEtMC43LTAuM2wtNC44LTQuOGMtMC40LTAuNC0wLjQtMSwwLTEuNHMxLTAuNCwxLjQsMGw0LjEsNC4xbDQuMS00LjENCgkJYzAuNC0wLjQsMS0wLjQsMS40LDBzMC40LDEsMCwxLjRsLTQuOCw0LjhDLTI1LjEsMTAuMy0yNS40LDEwLjQtMjUuNywxMC40eiIvPg0KPC9nPg0KPGc+DQoJPHBhdGggZmlsbD0iI0NDQ0ZENCIgZD0iTTI3LDI0LjRjLTAuMywwLTAuNS0wLjEtMC43LTAuM2wtNC44LTQuOGMtMC40LTAuNC0wLjQtMSwwLTEuNHMxLTAuNCwxLjQsMEwyNywyMmw0LjEtNC4xDQoJCWMwLjQtMC40LDEtMC40LDEuNCwwczAuNCwxLDAsMS40bC00LjgsNC44QzI3LjUsMjQuMywyNy4zLDI0LjQsMjcsMjQuNHoiLz4NCjwvZz4NCjwvc3ZnPg0K);
+    background-color: #e6e8ed; }
+
+.now-multiline-select {
+  border: 1px solid #e6e8ed;
+  border-radius: 4px;
+  width: 300px;
+  padding: 5px 0;
+  line-height: 16px;
+  font-size: 14px;
+  overflow: auto;
+  -moz-appearance: none !important;
+  -webkit-appearance: none !important; }
+  .now-multiline-select option {
+    padding: 5px 10px; }

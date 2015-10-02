@@ -1,0 +1,24 @@
+.now-input {
+  border: 1px solid $dark_grey;
+  color: $black;
+  border-radius: 4px;
+  width: 100%;
+  padding: 10px;
+  height: 36px;
+  font-size: 14px;
+  box-sizing: border-box;
+  outline: none;
+  &:focus {
+    background-color: $white;
+    border-color: $green;
+    color: $black;
+  }
+  &.error {
+    background-color: $white;
+    color: $red;
+    border-color: $red;
+  }
+  &:disabled {
+    background-color: $dark_grey;
+  }
+}
