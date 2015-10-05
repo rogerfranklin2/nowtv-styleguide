@@ -1,5 +1,7 @@
 # nowtv-base-toolkit
-Basic styles for NowTV 2.0
+
+## Motiviation
+Create a set of basic styles for static sites and the respective app specific toolkits to rely upon (e.g. React)
 
 ## Issues
 
