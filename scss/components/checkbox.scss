@@ -1,0 +1,50 @@
+.now-checkbox {
+  position: absolute;
+  left: -9999px;
+}
+
+.now-checkbox + label {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  box-sizing: border-box;
+  margin: 10px 0;
+  cursor: pointer;
+  text-align: left;
+
+  &:hover:after {
+    background-image: url(../icons/hover-tick-no-bg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+  }
+  &:after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: " ";
+    background-color: $light_grey;
+    border: 1px solid $dark_grey;
+    border-radius: 4px;
+    width: 18px;
+    height: 18px;
+  }
+
+}
+
+.now-checkbox:checked + label:after {
+  background-image: url(../icons/green-tick-no-bg.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+}
+
+.now-checkbox:disabled + label {
+  color: $grey;
+  cursor: default;
+
+  &:after {
+    background-image: none;
+  }
+}
