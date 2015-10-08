@@ -41,7 +41,7 @@
   -webkit-appearance: none !important;
 
   &.error {
-    border: 1px solid $pomegranate;
+    border-color: $pomegranate;
   }
 
   option {
