@@ -17,7 +17,6 @@ body {
   font: 16px nowtv-regular, sans-serif;
   background-color: transparent;
   width: 100%;
-  max-width: 345px;
   margin: 0 auto;
   padding: 10px 32px;
   box-sizing: border-box;
@@ -131,8 +130,7 @@ body {
     color: #424247; }
   .now-input.error {
     background-color: white;
-    color: #ef3a35;
-    border-color: #ef3a35; }
+    border-color: #ef3b36; }
   .now-input:disabled {
     background-color: #e6e8ed; }
 
@@ -151,11 +149,11 @@ body {
 .now-select {
   background-color: white;
   background-repeat: no-repeat;
-  background-size: 5%;
-  background-position: 95%;
+  background-size: 18px 100%;
+  background-position: right 10px center;
   border: 1px solid #e6e8ed;
   border-radius: 4px;
-  width: 300px;
+  width: 100%;
   padding: 10px 40px 10px 10px;
   height: 38px;
   line-height: 16px;
@@ -172,12 +170,14 @@ body {
 .now-multiline-select {
   border: 1px solid #e6e8ed;
   border-radius: 4px;
-  width: 300px;
+  width: 100%;
   padding: 5px 0;
   line-height: 16px;
   font-size: 14px;
   overflow: auto;
   -moz-appearance: none !important;
   -webkit-appearance: none !important; }
+  .now-multiline-select.error {
+    border-color: #ef3b36; }
   .now-multiline-select option {
     padding: 5px 10px; }
