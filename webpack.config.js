@@ -19,5 +19,21 @@ module.exports = [
         plugins: [
             new ExtractTextPlugin("/toolkit.css")
         ]
+    },
+    {
+        name: "style-guide",
+        entry: "./style-guide/global.scss",
+        output: {
+            path: "./dist",
+            filename: "style-guide.js"
+        },
+        module: {
+            loaders: [
+                {test: /\.scss$/, loader: ExtractTextPlugin.extract("css!autoprefixer?browsers=last 2 versions!sass?indentedSyntax")}
+            ]
+        },
+        plugins: [
+            new ExtractTextPlugin("/style-guide.css")
+        ]
     }
 ];

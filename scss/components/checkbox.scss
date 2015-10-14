@@ -1,3 +1,5 @@
+@import "../variables/colours";
+
 .now-checkbox {
   position: absolute;
   left: -9999px;
@@ -24,8 +26,8 @@
     top: 0;
     left: 0;
     content: " ";
-    background-color: $light_grey;
-    border: 1px solid $dark_grey;
+    background-color: $shark-jaws;
+    border: 1px solid $bombay;
     border-radius: 4px;
     width: 18px;
     height: 18px;
@@ -41,7 +43,7 @@
 }
 
 .now-checkbox:disabled + label {
-  color: $grey;
+  color: $shark;
   cursor: default;
 
   &:after {

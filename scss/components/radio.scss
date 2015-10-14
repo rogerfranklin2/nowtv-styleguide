@@ -24,8 +24,8 @@
     top: 0;
     left: 0;
     content: " ";
-    background-color: $light_grey;
-    border: 1px solid $dark_grey;
+    background-color: $bombay;
+    border: 1px solid $shark-jaws;
     border-radius: 100%;
     width: 18px;
     height: 18px;
@@ -41,7 +41,7 @@
 }
 
 .now-radio:disabled + label {
-  color: $grey;
+  color: $bombay;
   cursor: default;
 
   &:after {

@@ -1,0 +1,464 @@
+.colour {
+  height: 150px; }
+
+.colour-astronaut {
+  background-color: #2C3E72;
+  position: relative; }
+  .colour-astronaut:after {
+    content: "#2C3E72 astronaut";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-denim {
+  background-color: #175EC1;
+  position: relative; }
+  .colour-denim:after {
+    content: "#175EC1 denim";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-picton-blue {
+  background-color: #4AADEB;
+  position: relative; }
+  .colour-picton-blue:after {
+    content: "#4AADEB picton-blue";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-royal-purple {
+  background-color: #663399;
+  position: relative; }
+  .colour-royal-purple:after {
+    content: "#663399 royal-purple";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-cerise {
+  background-color: #EB278E;
+  position: relative; }
+  .colour-cerise:after {
+    content: "#EB278E cerise";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-mauvelous {
+  background-color: #EF95AC;
+  position: relative; }
+  .colour-mauvelous:after {
+    content: "#EF95AC mauvelous";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-flamingo {
+  background-color: #F3671B;
+  position: relative; }
+  .colour-flamingo:after {
+    content: "#F3671B flamingo";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-saffron {
+  background-color: #F6B432;
+  position: relative; }
+  .colour-saffron:after {
+    content: "#F6B432 saffron";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-pickled-bluewood {
+  background-color: #34495E;
+  position: relative; }
+  .colour-pickled-bluewood:after {
+    content: "#34495E pickled-bluewood";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-apple {
+  background-color: #30AF3F;
+  position: relative; }
+  .colour-apple:after {
+    content: "#30AF3F apple";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-white {
+  background-color: #FFFFFF;
+  position: relative; }
+  .colour-white:after {
+    content: "#FFFFFF white";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-ship-grey {
+  background-color: #424247;
+  position: relative; }
+  .colour-ship-grey:after {
+    content: "#424247 ship-grey";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-pomegranate {
+  background-color: #EF3A35;
+  position: relative; }
+  .colour-pomegranate:after {
+    content: "#EF3A35 pomegranate";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-athens-gray {
+  background-color: #F7F7F9;
+  position: relative; }
+  .colour-athens-gray:after {
+    content: "#F7F7F9 athens-gray";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-iron {
+  background-color: #CCCED3;
+  position: relative; }
+  .colour-iron:after {
+    content: "#CCCED3 iron";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-minsk {
+  background-color: #4A2C75;
+  position: relative; }
+  .colour-minsk:after {
+    content: "#4A2C75 minsk";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-fun-blue {
+  background-color: #1F47AB;
+  position: relative; }
+  .colour-fun-blue:after {
+    content: "#1F47AB fun-blue";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-trinidad {
+  background-color: #DD5400;
+  position: relative; }
+  .colour-trinidad:after {
+    content: "#DD5400 trinidad";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-shark {
+  background-color: #1C1C21;
+  position: relative; }
+  .colour-shark:after {
+    content: "#1C1C21 shark";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-shark-jaws {
+  background-color: #2B2B2F;
+  position: relative; }
+  .colour-shark-jaws:after {
+    content: "#2B2B2F shark-jaws";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-rolling-stone {
+  background-color: #777A7F;
+  position: relative; }
+  .colour-rolling-stone:after {
+    content: "#777A7F rolling-stone";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-bombay {
+  background-color: #AAADB2;
+  position: relative; }
+  .colour-bombay:after {
+    content: "#AAADB2 bombay";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-mischka {
+  background-color: #D9D9DE;
+  position: relative; }
+  .colour-mischka:after {
+    content: "#D9D9DE mischka";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-athens-gray-zeus {
+  background-color: #F7F7F9;
+  position: relative; }
+  .colour-athens-gray-zeus:after {
+    content: "#F7F7F9 athens-gray-zeus";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-forest-green {
+  background-color: #279038;
+  position: relative; }
+  .colour-forest-green:after {
+    content: "#279038 forest-green";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-monza {
+  background-color: #CF000F;
+  position: relative; }
+  .colour-monza:after {
+    content: "#CF000F monza";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-carrot-orange {
+  background-color: #EE9F1E;
+  position: relative; }
+  .colour-carrot-orange:after {
+    content: "#EE9F1E carrot-orange";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-pickled-bluewood-darker {
+  background-color: #2C3E50;
+  position: relative; }
+  .colour-pickled-bluewood-darker:after {
+    content: "#2C3E50 pickled-bluewood-darker";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-cloud-burst {
+  background-color: #223153;
+  position: relative; }
+  .colour-cloud-burst:after {
+    content: "#223153 cloud-burst";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-picton-blue-darker {
+  background-color: #1DA0EC;
+  position: relative; }
+  .colour-picton-blue-darker:after {
+    content: "#1DA0EC picton-blue-darker";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-lipstick {
+  background-color: #CF0074;
+  position: relative; }
+  .colour-lipstick:after {
+    content: "#CF0074 lipstick";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-deep-blush {
+  background-color: #E3758C;
+  position: relative; }
+  .colour-deep-blush:after {
+    content: "#E3758C deep-blush";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-ocean-green {
+  background-color: #449E91;
+  position: relative; }
+  .colour-ocean-green:after {
+    content: "#449E91 ocean-green";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-teal {
+  background-color: #008C82;
+  position: relative; }
+  .colour-teal:after {
+    content: "#008C82 teal";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-black {
+  background-color: #000000;
+  position: relative; }
+  .colour-black:after {
+    content: "#000000 black";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.button-container {
+  background-color: #223153;
+  color: #FFFFFF; }
+
+.button {
+  margin-bottom: 5px; }

@@ -1,0 +1,27 @@
+@import "../../scss/variables/colours";
+
+.colour {
+  height: 150px;
+}
+
+@each $name in $colour-names {
+
+  $i: index($colour-names, $name);
+
+  .colour-#{$name} {
+
+    background-color: nth($colour-vars, $i);
+    position: relative;
+
+    &:after {
+      content: "#{nth($colour-vars, $i)} #{$name}";
+      color: $white;
+      position: absolute;
+      width: 70px;
+      top: 50px;
+      left: 50%;
+      margin-left: -35px;
+      text-align: center;
+    }
+  }
+}

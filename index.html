@@ -3,14 +3,19 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>NowTV toolkit</title>
+    <title>NOWTV Toolkit &amp; Style Guide</title>
     <link rel="stylesheet" href="dist/toolkit.css" />
+    <link rel="stylesheet" href="dist/style-guide.css" />
+
 </head>
 <body>
 
-    <h1>Now TV UI Toolkit</h1>
+<section class="container">
+
+    <h1>NOWTV UI Toolkit</h1>
 
     <ul>
+        <li><a href="#colours">Colours</a></li>
         <li><a href="#buttons">Buttons</a></li>
         <li><a href="#text-links">Links</a></li>
         <li><a href="#inputs">Inputs</a></li>
@@ -19,34 +24,136 @@
         <li><a href="#radio">Radio Buttons</a></li>
     </ul>
 
+    <hr />
+
+    <h1 id="colours">Colour Palette</h1>
+
+      <h3>Primary Palette</h3>
+      <section class="row">
+        <div class="colour colour-apple col-lg-3"></div>
+        <div class="colour colour-forest-green col-lg-3"></div>
+
+        <div class="colour colour-pomegranate col-lg-3"></div>
+        <div class="colour colour-monza col-lg-3"></div>
+
+        <div class="colour colour-saffron col-lg-3"></div>
+        <div class="colour colour-carrot-orange col-lg-3"></div>
+
+        <div class="colour colour-pickled-bluewood col-lg-3"></div>
+        <div class="colour colour-pickled-bluewood-darker col-lg-3"></div>
+
+        <div class="colour colour-astronaut col-lg-3"></div>
+        <div class="colour colour-cloud-burst col-lg-3"></div>
+
+        <div class="colour colour-picton-blue col-lg-3"></div>
+        <div class="colour colour-picton-blue-darker col-lg-3"></div>
+
+        <div class="colour colour-cerise col-lg-3"></div>
+        <div class="colour colour-lipstick col-lg-3"></div>
+
+        <div class="colour colour-mauvelous col-lg-3"></div>
+        <div class="colour colour-deep-blush col-lg-3"></div>
+
+        <div class="colour colour-ocean-green col-lg-3"></div>
+        <div class="colour colour-teal col-lg-3"></div>
+      </section>
+
+      <h3>Interface Palette</h3>
+      <section class="row">
+        <div class="colour colour-shark col-lg-3"></div>
+
+        <div class="colour colour-shark-jaws col-lg-3"></div>
+
+        <div class="colour colour-ship-grey col-lg-3"></div>
+
+        <div class="colour colour-rolling-stone col-lg-3"></div>
+
+        <div class="colour colour-bombay col-lg-3"></div>
+
+        <div class="colour colour-iron col-lg-3"></div>
+
+        <div class="colour colour-mischka col-lg-3"></div>
+
+        <div class="colour colour-athens-gray col-lg-3"></div>
+
+        <div class="colour colour-athens-gray-zeus col-lg-3"></div>
+      </section>
+
+      <h2>Content Palette</h2>
+      <h3>Movies Palette</h3>
+      <section class="row">
+        <div class="colour colour-royal-purple col-lg-3"></div>
+        <div class="colour colour-minsk col-lg-3"></div>
+      </section>
+
+      <h3>Entertainment Palette</h3>
+      <section class="row">
+        <div class="colour colour-flamingo col-lg-3"></div>
+        <div class="colour colour-trinidad col-lg-3"></div>
+      </section>
+
+      <h3>Sports Palette</h3>
+      <section class="row">
+        <div class="colour colour-denim col-lg-3"></div>
+        <div class="colour colour-fun-blue col-lg-3"></div>
+      </section>
+
     <hr/>
 
     <h2 id="buttons">Buttons</h2>
-    
+
     <h3>Primary</h3>
-
-    <button class="now-button primary green">Button</button>
-    <button class="now-button primary red">Button</button>
-    <button class="now-button primary yellow">Button</button>
-    <button class="now-button primary blue">Button</button>
-
-    <button class="now-button primary" disabled>Button</button>
-
-    <button class="now-button primary green inverted">Button</button>
-    <button class="now-button primary green inverted" disabled>Button</button>
+    <p>.now-button_primary or view source</p>
+    <section class="row">
+      <div class="col-lg-3">
+        <button class="button now-button_primary">Inactive</button>
+        </div>
+        <div class="col-lg-3">
+        <button class="button now-button_primary is-hovered">Hover</button>
+        </div>
+        <div class="col-lg-3">
+        <button class="button now-button_primary is-active">Active (Clicked)</button>
+        </div>
+        <div class="col-lg-3">
+        <button class="button now-button_primary" disabled>Disabled</button>
+      </div>
+    </section>
 
     <h3>Secondary</h3>
+    <p>.now-button_secondary or view source</p>
+    <section class="row">
+    <div class="col-lg-3">
+      <button class="now-button_secondary">Button</button>
+    </div>
+    <div class="col-lg-3">
+      <button class="now-button_secondary is-hovered">Hover</button>
+    </div>
+    <div class="col-lg-3">
+      <button class="now-button_secondary is-active">Active (Clicked)</button>
+    </div>
+    <div class="col-lg-3">
+      <button class="now-button_secondary" disabled>Disabled</button>
+    </div>
+  </section>
 
-    <button class="now-button secondary blue">Button</button>
-    <button class="now-button secondary blue" disabled>Button</button>
-    <button class="now-button secondary blue inverted">Button</button>
-    <button class="now-button secondary blue inverted" disabled>Button</button>
+    <h3>Negative</h3>
+    <p>.now-button_negative or view source</p>
+    <section class="row">
+    <div class="col-lg-3">
+      <button class="now-button_negative">Button</button>
+    </div>
+    <div class="col-lg-3">
+      <button class="now-button_negative is-hovered">Hover</button>
+    </div>
+    <div class="col-lg-3">
+      <button class="now-button_negative is-active">Active (Clicked)</button>
+    </div>
+    <div class="col-lg-3">
+      <button class="now-button_negative" disabled>Disabled</button>
+    </div>
+  </section>
 
-    <h3>Default</h3>
-    <button class="now-button default">Button</button>
-    <button class="now-button default" disabled>Button</button>
-
-    <hr/>
+    <hr />
 
     <h2 id="text-links">Text Links</h2>
 
@@ -69,7 +176,7 @@
     <hr/>
 
     <h2 id="selects">Select</h2>
-    
+
     <h3>Active</h3>
     <select class="now-select">
         <option value="movies">Movies</option>
@@ -122,6 +229,7 @@
     <input type="radio" name="radio-disabled" id="radio-disabled" class="now-radio" disabled/>
     <label for="radio-disabled">Disabled</label>
 
+</section>
 
 </body>
 </html>
