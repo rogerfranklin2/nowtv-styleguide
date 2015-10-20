@@ -146,6 +146,47 @@ body {
     opacity: 0.3;
     cursor: default; }
 
+.now-radio {
+  position: absolute;
+  left: -9999px; }
+
+.now-radio + label {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  box-sizing: border-box;
+  margin: 10px 0;
+  cursor: pointer;
+  text-align: left; }
+  .now-radio + label:hover:after {
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE4LjEuMSwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAxMiAxMiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMTIgMTIiIHhtbDpzcGFjZT0icHJlc2VydmUiPgoJPGc+CiAgCQk8Y2lyY2xlIGZpbGw9IiNFNUU4RUQiIGN4PSI2IiBjeT0iNiIgcj0iNiIgaWQ9InN2Z180Ii8+CiAJPC9nPgo8L3N2Zz4=);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%; }
+  .now-radio + label:after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: " ";
+    background-color: #f7f7f9;
+    border: 1px solid #e6e8ed;
+    border-radius: 100%;
+    width: 18px;
+    height: 18px; }
+
+.now-radio:checked + label:after {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE4LjEuMSwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAxMiAxMiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMTIgMTIiIHhtbDpzcGFjZT0icHJlc2VydmUiPgoJPGc+CiAgCQk8Y2lyY2xlIGZpbGw9IiMzMEFGM0YiIGN4PSI2IiBjeT0iNiIgcj0iNiIgaWQ9InN2Z180Ii8+CiAJPC9nPgo8L3N2Zz4=);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%; }
+
+.now-radio:disabled + label {
+  color: #e5e8ed;
+  cursor: default; }
+  .now-radio:disabled + label:after {
+    background-image: none; }
+
 .now-select {
   background-color: white;
   background-repeat: no-repeat;
