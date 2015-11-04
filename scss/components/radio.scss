@@ -24,13 +24,12 @@
     top: 0;
     left: 0;
     content: " ";
-    background-color: $bombay;
-    border: 1px solid $shark-jaws;
+    background-color: $athens-gray;
+    border: 1px solid $mischka;
     border-radius: 100%;
     width: 18px;
     height: 18px;
   }
-
 }
 
 .now-radio:checked + label:after {

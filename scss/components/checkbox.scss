@@ -26,13 +26,12 @@
     top: 0;
     left: 0;
     content: " ";
-    background-color: $shark-jaws;
-    border: 1px solid $bombay;
+    background-color: $athens-gray;
+    border: 1px solid $mischka;
     border-radius: 4px;
     width: 18px;
     height: 18px;
   }
-
 }
 
 .now-checkbox:checked + label:after {
@@ -43,7 +42,7 @@
 }
 
 .now-checkbox:disabled + label {
-  color: $shark;
+  color: $bombay;
   cursor: default;
 
   &:after {
