@@ -5,7 +5,8 @@
   "main": "scss/toolkit.scss",
   "dependencies": {
     "gulp": "^3.9.0",
-    "gulp-sass": "^2.0.4"
+    "gulp-sass": "^2.0.4",
+    "nowtv-grid": "git://github.com/sky-uk/grid.git"
   },
   "devDependencies": {
     "autoprefixer-loader": "^3.1.0",
@@ -16,8 +17,7 @@
     "sass-loader": "^3.0.0",
     "url-loader": "^0.5.6",
     "webpack": "^1.12.2",
-    "nowtv-web-grid": "git://github.com/sky-uk/nowtv-web-grid",
-    "nowtv-grid": "git://github.com/sky-uk/grid.git"
+    "nowtv-web-grid": "git://github.com/sky-uk/nowtv-web-grid"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
