@@ -9,16 +9,40 @@
   @extend %button_primary;
 }
 
+.now-button_primary_red {
+  @extend %button_primary_red;
+}
+
+.now-button_primary_yellow {
+  @extend %button_primary_yellow;
+}
+
+.now-button_primary_blue {
+  @extend %button_primary_blue;
+}
+
+.now-button_primary_green {
+  @extend %button_primary_green;
+}
+
 .now-button_secondary {
   @extend %button_secondary;
 }
 
-.now-button_negative {
-  @extend %button_negative;
+.now-button_secondary_red {
+  @extend %button_secondary_red;
+}
+.now-button_secondary_green {
+  @extend %button_secondary_green;
 }
 
-[disabled=disabled], :disabled {
-  background-color: $bombay;
-  cursor: default;
-  opacity: 0.3 !important;
+.now-button_secondary_yellow {
+  @extend %button_secondary_yellow;
+}
+.now-button_secondary_blue {
+  @extend %button_secondary_blue;
+}
+
+.now-button_negative {
+  @extend %button_negative;
 }
