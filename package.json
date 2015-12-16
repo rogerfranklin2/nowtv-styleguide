@@ -1,6 +1,6 @@
 {
   "name": "nowtv-toolkit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "NOW TV Toolkit",
   "main": "scss/toolkit.scss",
   "dependencies": {
