@@ -24,9 +24,34 @@
   &:focus {
     outline: 0;
   }
+  [disabled=disabled],
+  &:disabled {
+    cursor: default;
+    opacity: 0.3 !important;
+  }
 }
 
 %button_primary {
+  @extend %button;
+  background-color: $apple;
+}
+
+%button_primary_red {
+  @extend %button;
+  background-color: $monza;
+}
+
+%button_primary_blue {
+  @extend %button;
+  background-color: $astronaut;
+}
+
+%button_primary_yellow {
+  @extend %button;
+  background-color: $saffron;
+}
+
+%button_primary_green {
   @extend %button;
   background-color: $apple;
 }
@@ -37,6 +62,34 @@
   background-color: $mischka;
 }
 
+%button_secondary_red {
+  @extend %button;
+  color: $monza;
+  border:2px solid currentColor;
+  background-color: transparent;
+}
+
+%button_secondary_green {
+  @extend %button;
+  color: $apple;
+  border:2px solid currentColor;
+  background-color: transparent;
+}
+%button_secondary_yellow {
+  @extend %button;
+  color: $saffron;
+  border:2px solid currentColor;
+  background-color: transparent;
+}
+
+%button_secondary_blue {
+  @extend %button;
+  color: $astronaut;
+  border:2px solid currentColor;
+  background-color: transparent;
+}
+
+//todo: deprecated.
 %button_negative {
   @extend %button;
   background-color: $monza;
