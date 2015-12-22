@@ -1,0 +1,20 @@
+@font-face {
+  font-family: nowtv-light;
+  src: url('../fonts/nowtvtext-light.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: nowtv-regular;
+  src: url('../fonts/nowtvtext-regular.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: nowtv-bold;
+  src: url('../fonts/nowtvtext-bold.woff') format('woff');
+}
+
+body {
+  font-family: nowtv-regular, Helvetica, Arial, sans-serif;
+}
