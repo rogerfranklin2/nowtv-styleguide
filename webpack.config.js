@@ -21,7 +21,7 @@ module.exports = [
       ]
     },
     plugins: [
-      new ExtractTextPlugin("/toolkit.css")
+      new ExtractTextPlugin("/[name].css")
     ]
   }
 ];
