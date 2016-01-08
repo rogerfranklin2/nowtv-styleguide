@@ -25,6 +25,10 @@
   @extend %button_primary_green;
 }
 
+.now-button_primary_grey {
+  @extend %button_primary_grey;
+}
+
 .now-button_secondary {
   @extend %button_secondary;
 }
@@ -32,6 +36,7 @@
 .now-button_secondary_red {
   @extend %button_secondary_red;
 }
+
 .now-button_secondary_green {
   @extend %button_secondary_green;
 }
@@ -39,8 +44,13 @@
 .now-button_secondary_yellow {
   @extend %button_secondary_yellow;
 }
+
 .now-button_secondary_blue {
   @extend %button_secondary_blue;
+}
+
+.now-button_secondary_grey {
+  @extend %button_secondary_grey;
 }
 
 .now-button_negative {
