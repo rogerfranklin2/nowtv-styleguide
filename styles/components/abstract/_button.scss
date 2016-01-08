@@ -38,7 +38,7 @@
 
 %button_primary_red {
   @extend %button;
-  background-color: $monza;
+  background-color: $pomegranate;
 }
 
 %button_primary_blue {
@@ -56,6 +56,11 @@
   background-color: $apple;
 }
 
+%button_primary_grey {
+  @extend %button;
+  background-color: $iron;
+}
+
 %button_secondary {
   @extend %button;
   color: $ship-grey;
@@ -64,7 +69,7 @@
 
 %button_secondary_red {
   @extend %button;
-  color: $monza;
+  color: $pomegranate;
   border:2px solid currentColor;
   background-color: transparent;
 }
@@ -85,6 +90,13 @@
 %button_secondary_blue {
   @extend %button;
   color: $astronaut;
+  border:2px solid currentColor;
+  background-color: transparent;
+}
+
+%button_secondary_grey {
+  @extend %button;
+  color: $iron;
   border:2px solid currentColor;
   background-color: transparent;
 }
