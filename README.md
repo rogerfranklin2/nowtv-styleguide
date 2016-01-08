@@ -1,4 +1,4 @@
-# nowtv-toolkit
+# nowtv-toolkit [![Circle CI](https://circleci.com/gh/sky-uk/nowtv-toolkit.svg?style=svg)](https://circleci.com/gh/sky-uk/nowtv-toolkit)
 
  > A set of basic styles
 
