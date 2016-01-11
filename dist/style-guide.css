@@ -924,10 +924,10 @@ hr {
     text-align: center; }
 
 .colour-apple {
-  background-color: #30AF3F;
+  background-color: #40AD46;
   position: relative; }
   .colour-apple:after {
-    content: "#30AF3F apple";
+    content: "#40AD46 apple";
     color: #FFFFFF;
     position: absolute;
     width: 70px;
