@@ -2,23 +2,11 @@
   "name": "nowtv-toolkit",
   "version": "0.0.5",
   "description": "NowTV Toolkit",
+  "homepage": "https://github.com/sky-uk/nowtv-toolkit#readme",
   "main": "scss/toolkit.scss",
-  "dependencies": {
-    "nowtv-grid": "git://github.com/sky-uk/grid.git"
-  },
-  "devDependencies": {
-    "autoprefixer-loader": "^3.1.0",
-    "css-loader": "^0.23.0",
-    "extract-text-webpack-plugin": "^0.9.1",
-    "file-loader": "^0.8.4",
-    "node-sass": "^3.3.3",
-    "sass-loader": "^3.0.0",
-    "url-loader": "^0.5.6",
-    "webpack": "^1.12.2",
-    "nowtv-grid": "git://github.com/sky-uk/nowtv-web-grid"
-  },
   "scripts": {
-    "start": "webpack",
+    "build": "webpack",
+    "start": "npm run build && node ./server",
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {
@@ -34,5 +22,24 @@
   "bugs": {
     "url": "https://github.com/sky-uk/nowtv-toolkit/issues"
   },
-  "homepage": "https://github.com/sky-uk/nowtv-toolkit#readme"
+  "engines": {
+    "node": "5.1.0",
+    "npm": "3.3.12"
+  },
+  "dependencies": {
+    "nowtv-grid": "git://github.com/sky-uk/grid.git"
+  },
+  "devDependencies": {
+    "autoprefixer-loader": "^3.1.0",
+    "css-loader": "^0.23.0",
+    "express": "^4.13.3",
+    "express-handlebars": "^2.0.1",
+    "extract-text-webpack-plugin": "^0.9.1",
+    "file-loader": "^0.8.4",
+    "node-sass": "^3.3.3",
+    "nowtv-grid": "git://github.com/sky-uk/nowtv-web-grid",
+    "sass-loader": "^3.0.0",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.12.2"
+  }
 }

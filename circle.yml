@@ -1,0 +1,11 @@
+dependencies:
+  cache_directories:
+    - node_modules
+  post:
+    - git config --global user.name "NowTV"
+    - git config --global user.email "nowarkdev@gmail.com"
+machine:
+  timezone:
+    Europe/London
+  node:
+    version: v5.1
