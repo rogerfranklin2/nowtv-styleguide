@@ -20,7 +20,7 @@
 
   &:disabled {
     background-image: url(../icons/grey-chevron-down.svg);
-    background-color: $bombay;
+    color: $bombay;
   }
 
   &.error {

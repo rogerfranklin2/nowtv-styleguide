@@ -40,7 +40,7 @@
   }
 
   &:disabled {
-    background-color: $bombay;
+    color: $bombay;
   }
 
   + .error {
