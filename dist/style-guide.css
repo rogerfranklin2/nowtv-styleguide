@@ -1261,6 +1261,435 @@ hr {
     margin-left: -35px;
     text-align: center; }
 
+.colour-sales-apple {
+  background-color: #37AC47;
+  position: relative; }
+  .colour-sales-apple:after {
+    content: "#37AC47 sales-apple";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-sales-sea-green {
+  background-color: #2D8E3D;
+  position: relative; }
+  .colour-sales-sea-green:after {
+    content: "#2D8E3D sales-sea-green";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-sales-pickled-bluewood {
+  background-color: #35495D;
+  position: relative; }
+  .colour-sales-pickled-bluewood:after {
+    content: "#35495D sales-pickled-bluewood";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-sales-pickled-bluewood-darker {
+  background-color: #2D3E4F;
+  position: relative; }
+  .colour-sales-pickled-bluewood-darker:after {
+    content: "#2D3E4F sales-pickled-bluewood-darker";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-sales-royal-purple {
+  background-color: #653796;
+  position: relative; }
+  .colour-sales-royal-purple:after {
+    content: "#653796 sales-royal-purple";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-sales-jacarta {
+  background-color: #4A2F73;
+  position: relative; }
+  .colour-sales-jacarta:after {
+    content: "#4A2F73 sales-jacarta";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-sales-cinnabar {
+  background-color: #EB3C3C;
+  position: relative; }
+  .colour-sales-cinnabar:after {
+    content: "#EB3C3C sales-cinnabar";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-sales-monza {
+  background-color: #CC091C;
+  position: relative; }
+  .colour-sales-monza:after {
+    content: "#CC091C sales-monza";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-sales-cloud-burst {
+  background-color: #233252;
+  position: relative; }
+  .colour-sales-cloud-burst:after {
+    content: "#233252 sales-cloud-burst";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-sales-san-huan {
+  background-color: #2D3F70;
+  position: relative; }
+  .colour-sales-san-huan:after {
+    content: "#2D3F70 sales-san-huan";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-sales-cerise {
+  background-color: #E72F8D;
+  position: relative; }
+  .colour-sales-cerise:after {
+    content: "#E72F8D sales-cerise";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-sales-red-violet {
+  background-color: #CC1174;
+  position: relative; }
+  .colour-sales-red-violet:after {
+    content: "#CC1174 sales-red-violet";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-sales-flamingo {
+  background-color: #F0672B;
+  position: relative; }
+  .colour-sales-flamingo:after {
+    content: "#F0672B sales-flamingo";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-sales-hot-cinnamon {
+  background-color: #DA541A;
+  position: relative; }
+  .colour-sales-hot-cinnamon:after {
+    content: "#DA541A sales-hot-cinnamon";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-sales-denim {
+  background-color: #1D61BD;
+  position: relative; }
+  .colour-sales-denim:after {
+    content: "#1D61BD sales-denim";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-sales-fun-blue {
+  background-color: #224AA7;
+  position: relative; }
+  .colour-sales-fun-blue:after {
+    content: "#224AA7 sales-fun-blue";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-sales-sea-pink {
+  background-color: #EC95AB;
+  position: relative; }
+  .colour-sales-sea-pink:after {
+    content: "#EC95AB sales-sea-pink";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-sales-deep-blush {
+  background-color: #E0768C;
+  position: relative; }
+  .colour-sales-deep-blush:after {
+    content: "#E0768C sales-deep-blush";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-sales-saffron {
+  background-color: #F3B241;
+  position: relative; }
+  .colour-sales-saffron:after {
+    content: "#F3B241 sales-saffron";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-sales-fire-bush {
+  background-color: #EB9D32;
+  position: relative; }
+  .colour-sales-fire-bush:after {
+    content: "#EB9D32 sales-fire-bush";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-sales-picton-blue {
+  background-color: #4FADE7;
+  position: relative; }
+  .colour-sales-picton-blue:after {
+    content: "#4FADE7 sales-picton-blue";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-sales-picton-blue-darker {
+  background-color: #29A0E8;
+  position: relative; }
+  .colour-sales-picton-blue-darker:after {
+    content: "#29A0E8 sales-picton-blue-darker";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-sales-ocean-green {
+  background-color: #489D90;
+  position: relative; }
+  .colour-sales-ocean-green:after {
+    content: "#489D90 sales-ocean-green";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-sales-shark {
+  background-color: #2B2B2F;
+  position: relative; }
+  .colour-sales-shark:after {
+    content: "#2B2B2F sales-shark";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-sales-shark {
+  background-color: #2B2B2F;
+  position: relative; }
+  .colour-sales-shark:after {
+    content: "#2B2B2F sales-shark";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-sales-ship-grey {
+  background-color: #424247;
+  position: relative; }
+  .colour-sales-ship-grey:after {
+    content: "#424247 sales-ship-grey";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-sales-storm-grey {
+  background-color: #787A80;
+  position: relative; }
+  .colour-sales-storm-grey:after {
+    content: "#787A80 sales-storm-grey";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-sales-bombay {
+  background-color: #AAACB1;
+  position: relative; }
+  .colour-sales-bombay:after {
+    content: "#AAACB1 sales-bombay";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-sales-iron {
+  background-color: #CBCED3;
+  position: relative; }
+  .colour-sales-iron:after {
+    content: "#CBCED3 sales-iron";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-sales-mischka {
+  background-color: #D8D8DD;
+  position: relative; }
+  .colour-sales-mischka:after {
+    content: "#D8D8DD sales-mischka";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-sales-athens-gray {
+  background-color: #E4E7EC;
+  position: relative; }
+  .colour-sales-athens-gray:after {
+    content: "#E4E7EC sales-athens-gray";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-sales-white-lilac {
+  background-color: #F9F9FD;
+  position: relative; }
+  .colour-sales-white-lilac:after {
+    content: "#F9F9FD sales-white-lilac";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
+.colour-sales-white {
+  background-color: #FFFFFF;
+  position: relative; }
+  .colour-sales-white:after {
+    content: "#FFFFFF sales-white";
+    color: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    top: 50px;
+    left: 50%;
+    margin-left: -35px;
+    text-align: center; }
+
 .button-container {
   background-color: #223153;
   color: #FFFFFF; }

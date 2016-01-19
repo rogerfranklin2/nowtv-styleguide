@@ -8,11 +8,12 @@
 .now-checkbox + label {
   display: block;
   position: relative;
-  padding-left: 30px;
+  padding-left: 32px;
   box-sizing: border-box;
   margin: 10px 0;
   cursor: pointer;
   text-align: left;
+  font-size: 16px;
 
   &:hover:after {
     background-image: url(../icons/hover-tick-no-bg.svg);
@@ -26,11 +27,11 @@
     top: 0;
     left: 0;
     content: " ";
-    background-color: $athens-gray;
+    background-color: $white;
     border: 1px solid $mischka;
-    border-radius: 4px;
-    width: 18px;
-    height: 18px;
+    border-radius: 5px;
+    width: 24px;
+    height: 24px;
   }
 }
 

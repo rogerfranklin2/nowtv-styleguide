@@ -1,27 +1,36 @@
 .now-input {
-  border: 1px solid $bombay;
+  border: 1px solid $sales-mischka;
   color: $black;
   border-radius: 4px;
   width: 100%;
   padding: 10px;
-  height: 36px;
-  font-size: 14px;
+  height: 44px;
+  font-size: 16px;
   box-sizing: border-box;
   outline: none;
 
   &:focus {
-    background-color: $white;
     border-color: $apple;
     color: $black;
   }
 
+  &.valid {
+    background: url(../icons/green-input-tick-no-bg.svg) no-repeat right 10px center;
+  }
+
   &.error {
-    background-color: $white;
-    color: $pomegranate;
-    border-color: $pomegranate;
+    /* Replace with proper svg */
+    background: url(../icons/green-input-tick-no-bg.svg) no-repeat right 10px center;
+    color: $sales-cinnabar;
+    border-color: $sales-cinnabar;
   }
 
   &:disabled {
     background-color: $bombay;
+  }
+
+  + .error {
+    color: $sales-cinnabar;
+    font-size: 16px;
   }
 }
