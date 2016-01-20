@@ -1,5 +1,5 @@
 .now-input {
-  border: 1px solid $sales-mischka;
+  border: 1px solid $mischka;
   color: $black;
   border-radius: 4px;
   width: 100%;
@@ -20,22 +20,22 @@
 
   &.error {
     background: url(../icons/red-input-exclamation-no-bg.svg) no-repeat right 10px center;
-    color: $sales-cinnabar;
-    border-color: $sales-cinnabar;
+    color: $monza;
+    border-color: $monza;
 
     &::-webkit-input-placeholder {      /* WebKit, Blink, Edge */
-      color:    $sales-cinnabar;
+      color:    $monza;
     }
     &:-moz-placeholder {                /* Mozilla Firefox 4 to 18 */
-       color:    $sales-cinnabar;
+       color:    $monza;
        opacity:  1;
     }
     &::-moz-placeholder {               /* Mozilla Firefox 19+ */
-       color:    $sales-cinnabar;
+       color:    $monza;
        opacity:  1;
     }
     &:-ms-input-placeholder {           /* Internet Explorer 10-11 */
-       color:    $sales-cinnabar;
+       color:    $monza;
     }
   }
 
@@ -44,7 +44,7 @@
   }
 
   + .error {
-    color: $sales-cinnabar;
+    color: $monza;
     font-size: 16px;
   }
 }

@@ -1,0 +1,12 @@
+@import "abstract/header";
+
+.header_green {
+	@extend %header;
+	background-color: $apple;
+}
+
+.header_blue {
+	@extend %header;
+	background-color: $denim;
+}
+
