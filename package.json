@@ -6,6 +6,7 @@
   "main": "scss/toolkit.scss",
   "scripts": {
     "build": "webpack",
+    "watch": "webpack --watch",
     "start": "npm run build && node ./server",
     "test": "echo \"Error: no test specified\" && exit 0"
   },
