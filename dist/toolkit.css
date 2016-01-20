@@ -129,6 +129,34 @@
   .now-checkbox:disabled + label:after {
     background-image: none; }
 
+.header_green, .header_blue {
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 10px; }
+  .header_green .header-icon, .header_blue .header-icon {
+    border-radius: 50%;
+    background-color: #000;
+    opacity: 0.25;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto; }
+  .header_green .header-title, .header_blue .header-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 100;
+    line-height: 1.2em;
+    font-size: 1.6em; }
+  .header_green .header-subtitle, .header_blue .header-subtitle {
+    margin: 0;
+    padding: 0 5px; }
+
+.header_green {
+  background-color: #40AD46; }
+
+.header_blue {
+  background-color: #175EC1; }
+
 .now-input {
   border: 1px solid #D8D8DD;
   color: #000000;
@@ -163,7 +191,7 @@
       /* Internet Explorer 10-11 */
       color: #EB3C3C; }
   .now-input:disabled {
-    background-color: #AAADB2; }
+    color: #AAADB2; }
   .now-input + .error {
     color: #EB3C3C;
     font-size: 16px; }
