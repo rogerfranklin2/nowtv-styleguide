@@ -1,8 +1,8 @@
 {
-  "name": "nowtv-toolkit",
+  "name": "nowtv-styleguide",
   "version": "0.0.5",
-  "description": "NowTV Toolkit",
-  "homepage": "https://github.com/sky-uk/nowtv-toolkit#readme",
+  "description": "NowTV StyleGuide",
+  "homepage": "https://github.com/sky-uk/nowtv-styleguide#readme",
   "main": "scss/toolkit.scss",
   "scripts": {
     "build": "webpack",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sky-uk/nowtv-toolkit.git"
+    "url": "git+https://github.com/sky-uk/nowtv-styleguide.git"
   },
   "keywords": [
     "NowTV",
@@ -21,7 +21,7 @@
   "author": "Meator",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sky-uk/nowtv-toolkit/issues"
+    "url": "https://github.com/sky-uk/nowtv-styleguide/issues"
   },
   "engines": {
     "node": "5.1.0",
