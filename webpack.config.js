@@ -4,9 +4,9 @@ module.exports = [
   {
     name: "toolkit",
     entry: {
-      toolkit: ["./src/styles/toolkit.scss"],
+      styleguide: ["./src/styles/styleguide.scss"],
       fonts: ["./src/styles/fonts.css"],
-      "style-guide": ["./server/styles/style-guide.scss"]
+      docs: ["./server/styles/docs.scss"]
     },
     output: {
       path: "./dist",
