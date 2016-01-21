@@ -1,13 +1,14 @@
 {
-  "name": "nowtv-styleguide",
-  "version": "0.0.5",
+  "name": "@nowtv/nowtv-styleguide",
+  "version": "1.0.0",
   "description": "NowTV StyleGuide",
   "homepage": "https://github.com/sky-uk/nowtv-styleguide#readme",
-  "main": "scss/toolkit.scss",
+  "main": "src/styles/styleguide.scss",
   "scripts": {
     "build": "webpack",
     "start": "npm run build && node ./server",
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",

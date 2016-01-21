@@ -2,15 +2,29 @@
 
  > A set of basic styles
 
-## Using in your project
-
-In your `package.json` file include the NOW TV StyleGuide referencing a specific tag.
-
+## Installation
 ```
-    "nowtv-styleguide": "git://github.com/sky-uk/nowtv-styleguide.git#0.0.4"
+npm install @nowtv/nowtv-styleguide --save
 ```
 
-### Files available:
+## Usage
 
- * `toolkit.css`
- * `fonts.css`
+Then you can either require the pre-compiled scss or the compiled css
+
+### SCSS
+
+```scss
+@import "../node_modules/@nowtv/nowtv-styleguide/src/styles/fonts.css";
+@import "../node_modules/@nowtv/nowtv-styleguide/src/styles/styleguide.scss";
+
+```
+
+*You will also need to ensure you are compiling scss from within `node_modules/@nowtv/nowtv-styleguide`.*
+
+
+### HTML
+
+```html
+<link rel="stylesheet" href="../node_modules/@nowtv/nowtv-styleguide/dist/fonts.css">
+<link rel="stylesheet" href="../node_modules/@nowtv/nowtv-styleguide/dist/styleguide.css">
+```
