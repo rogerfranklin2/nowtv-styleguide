@@ -1,27 +1,50 @@
 .now-input {
-  border: 1px solid $bombay;
+  border: 1px solid $mischka;
   color: $black;
   border-radius: 4px;
   width: 100%;
   padding: 10px;
-  height: 36px;
-  font-size: 14px;
+  height: 44px;
+  font-size: 16px;
   box-sizing: border-box;
   outline: none;
 
   &:focus {
-    background-color: $white;
     border-color: $apple;
     color: $black;
   }
 
+  &.valid {
+    background: url(../icons/green-input-tick-no-bg.svg) no-repeat right 10px center;
+  }
+
   &.error {
-    background-color: $white;
-    color: $pomegranate;
-    border-color: $pomegranate;
+    background: url(../icons/red-input-exclamation-no-bg.svg) no-repeat right 10px center;
+    color: $monza;
+    border-color: $monza;
+
+    &::-webkit-input-placeholder {      /* WebKit, Blink, Edge */
+      color:    $monza;
+    }
+    &:-moz-placeholder {                /* Mozilla Firefox 4 to 18 */
+       color:    $monza;
+       opacity:  1;
+    }
+    &::-moz-placeholder {               /* Mozilla Firefox 19+ */
+       color:    $monza;
+       opacity:  1;
+    }
+    &:-ms-input-placeholder {           /* Internet Explorer 10-11 */
+       color:    $monza;
+    }
   }
 
   &:disabled {
-    background-color: $bombay;
+    color: $bombay;
+  }
+
+  + .error {
+    color: $monza;
+    font-size: 16px;
   }
 }

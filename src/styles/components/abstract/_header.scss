@@ -1,0 +1,27 @@
+%header {
+	color: white;
+	text-align: center;
+	padding: 15px;
+	margin-bottom: 10px;
+
+	.header-icon {
+		border-radius: 50%;
+		background-color: #000; 
+		opacity: 0.25;
+		width: 70px;
+		height: 70px;
+		margin: 0 auto;
+	}
+
+	.header-heading {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		line-height: 1.2em;
+		font-size: 1.6em;
+	}
+
+	.header-subheading {
+		margin: 0;
+		padding: 0 5px;
+	}
+}

@@ -9,17 +9,29 @@
   padding: 10px 40px 10px 10px;
   height: 38px;
   line-height: 16px;
-  font-size: 14px;
+  font-size: 16px;
   box-sizing: border-box;
   outline: none;
   background-image: url(../icons/green-chevron-down.svg);
 
   -moz-appearance: none !important;
   -webkit-appearance: none !important;
+  appearance: none !important;
 
   &:disabled {
     background-image: url(../icons/grey-chevron-down.svg);
-    background-color: $bombay;
+    color: $bombay;
+  }
+
+  &.error {
+    background-image: url(../icons/grey-chevron-down.svg);
+    color: $monza;
+    border-color: $monza;
+  }
+
+  + .error {
+    color: $monza;
+    font-size: 16px;
   }
 }
 

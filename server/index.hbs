@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="/fonts.css"/>
   <link rel="stylesheet" href="/styleguide.css"/>
   <link rel="stylesheet" href="/docs.css"/>
-
 </head>
 <body>
 
@@ -266,8 +265,12 @@
   <h3>Active / Inactive</h3>
   <input type="text" class="now-input" placeholder="A text input"/>
 
+  <h3>Valid</h3>
+  <input type="text" class="now-input valid" placeholder="Confirmed is valid"/>
+
   <h3>Error</h3>
   <input type="text" class="now-input error" placeholder="An error"/>
+  <span class="error">*Detailed error text</span>
 
   <h2>Disabled</h2>
   <input type="text" class="now-input" value="Some uneditable text" disabled/>
@@ -283,6 +286,15 @@
     <option value="entertainment">Entertainment</option>
     <option value="kids">Kids</option>
   </select>
+
+  <h3>Error</h3>
+    <select class="now-select error">
+      <option value="movies">Movies</option>
+      <option value="sports">Sports</option>
+      <option value="entertainment">Entertainment</option>
+      <option value="kids">Kids</option>
+    </select>
+    <span class="error">*Detailed error text</span>
 
   <h3>Disabled</h3>
   <select class="now-select" disabled>
@@ -327,8 +339,27 @@
 
   <input type="radio" name="radio-disabled" id="radio-disabled" class="now-radio" disabled/>
   <label for="radio-disabled">Disabled</label>
+    
+  <hr/>
+    
+  <h2 id="headers">Headers</h2>
 
-</section>
+  <div class="header_green">
+    <header>
+      <div class="header-icon">
+        <i class="icon-beer"></i>
+      </div>
+      <h1 class="header-heading">Lorem Ipsum</h1>
+      <p class="header-subheading">Lorem ipsum dolor sit amet.</p>
+    </header>
+  </div>
 
-</body>
-</html>
+  <div class="header_blue">
+    <header>
+      <div class="header-icon">
+        <i class="icon-beer"></i>
+      </div>
+      <h1 class="header-heading">Lorem Ipsum</h1>
+      <p class="header-subheading">Lorem ipsum dolor sit amet.</p>
+    </header>
+  </div>
