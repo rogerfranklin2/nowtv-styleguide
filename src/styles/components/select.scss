@@ -25,12 +25,12 @@
 
   &.error {
     background-image: url(../icons/grey-chevron-down.svg);
-    color: $monza;
-    border-color: $monza;
+    color: $red-tint;
+    border-color: $red-tint;
   }
 
   + .error {
-    color: $monza;
+    color: $red-tint;
     font-size: 16px;
   }
 }
@@ -48,7 +48,7 @@
   -webkit-appearance: none !important;
 
   &.error {
-    border-color: $pomegranate;
+    border-color: $red;
   }
 
   option {

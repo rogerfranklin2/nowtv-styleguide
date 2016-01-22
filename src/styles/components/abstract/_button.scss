@@ -37,27 +37,27 @@
 
 %button_primary {
   @extend %button;
-  background-color: $apple;
+  background-color: $green;
 }
 
 %button_primary_red {
   @extend %button;
-  background-color: $pomegranate;
+  background-color: $red;
 }
 
 %button_primary_blue {
   @extend %button;
-  background-color: $astronaut;
+  background-color: $dark-blue;
 }
 
 %button_primary_yellow {
   @extend %button;
-  background-color: $saffron;
+  background-color: $yellow;
 }
 
 %button_primary_green {
   @extend %button;
-  background-color: $apple;
+  background-color: $green;
 }
 
 %button_primary_grey {
@@ -77,40 +77,40 @@
 
 %button_secondary_red {
   @extend %button;
-  color: $pomegranate;
+  color: $red;
   border:2px solid currentColor;
   background-color: transparent;
   &:hover, &.is-hovered{
-    color: $monza;
+    color: $red-tint;
   }
 }
 
 %button_secondary_green {
   @extend %button;
-  color: $apple;
+  color: $green;
   border:2px solid currentColor;
   background-color: transparent;
   &:hover, &.is-hovered{
-    color: $apple;
+    color: $green;
   }
 }
 %button_secondary_yellow {
   @extend %button;
-  color: $saffron;
+  color: $yellow;
   border:2px solid currentColor;
   background-color: transparent;
   &:hover, &.is-hovered{
-    color: $saffron;
+    color: $yellow;
   }
 }
 
 %button_secondary_blue {
   @extend %button;
-  color: $astronaut;
+  color: $dark-blue;
   border:2px solid currentColor;
   background-color: transparent;
   &:hover, &.is-hovered{
-    color: $astronaut;
+    color: $dark-blue;
   }
 }
 
@@ -124,5 +124,5 @@
 //todo: deprecated.
 %button_negative {
   @extend %button;
-  background-color: $monza;
+  background-color: $red-tint;
 }
