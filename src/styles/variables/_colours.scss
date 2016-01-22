@@ -1,50 +1,50 @@
-$apple: #40AD46;
-$forest-green: #279038;
+$green: #37AC47;
+$green-tint: #2D8E3D;
 
-$pomegranate: #EF3A35;
-$monza: #CF000F;
+$red: #EB3C3C;
+$red-tint: #CC091C;
 
-$saffron: #F6B432;
-$carrot-orange: #EE9F1E;
+$yellow: #F3B241;
+$yellow-tint: #EB9D32;
 
-$pickled-bluewood: #34495E;
-$pickled-bluewood-darker: #2C3E50;
+$blue-grey: #35495D;
+$blue-grey-tint: #2D3E4F;
 
-$astronaut: #2C3E72;
-$cloud-burst: #223153;
+$dark-blue: #2D3F70;
+$dark-blue-tint: #233252;
 
-$picton-blue: #4AADEB;
-$picton-blue-darker: #1DA0EC;
+$light-blue: #4FADE7;
+$light-blue-tint: #29A0E8;
 
-$cerise: #EB278E;
-$lipstick: #CF0074;
+$pink: #E72F8D;
+$pink-tint: #CC1174;
 
-$mauvelous: #EF95AC;
-$deep-blush: #E3758C;
+$light-pink: #EC95AB;
+$light-pink-tint: #E0768C;
 
-$ocean-green: #449E91;
-$teal: #008C82;
+$teal: #489D90;
+$teal-tint: #138B81;
 
 // -----------------------------------------------------------------------------
 // Movies Palette
 // First is primary, second is the tint
 // -----------------------------------------------------------------------------
-$royal-purple: #663399;
-$minsk: #4A2C75;
+$purple: #653796;
+$purple-tint: #4A2F73;
 
 // -----------------------------------------------------------------------------
 // Entertainment Palette
 // First is primary, second is the tint
 // -----------------------------------------------------------------------------
-$flamingo: #F3671B;
-$trinidad: #DD5400;
+$orange: #F0672B;
+$orange-tint: #DA541A;
 
 // -----------------------------------------------------------------------------
 // Sports Palette
 // First is primary, second is the tint
 // -----------------------------------------------------------------------------
-$denim: #175EC1;
-$fun-blue: #1F47AB;
+$blue: #1D61BD;
+$blue-tint: #224AA7;
 
 // -----------------------------------------------------------------------------
 // Interface Palette
@@ -52,18 +52,18 @@ $fun-blue: #1F47AB;
 $shark: #1C1C21;
 $shark-jaws: #2B2B2F;
 $ship-grey: #424247;
-$rolling-stone: #777A7F;
-$bombay: #AAADB2;
-$iron: #CCCED3;
-$mischka: #D9D9DE;
-$athens-gray: #F7F7F9;
-$athens-gray-zeus: #F7F7F9;
+$rolling-stone: #787A80;
+$bombay: #AAACB1;
+$iron: #CBCED3;
+$mischka: #D8D8DD;
+$athens-gray: #E4E7EC;
+$athens-gray-zeus: #F9F9FD;
 $white: #FFFFFF;
 $black: #000000;
 
 // -----------------------------------------------------------------------------
 // Colour List
 // -----------------------------------------------------------------------------
-$colour-names: astronaut denim picton-blue royal-purple cerise mauvelous flamingo saffron pickled-bluewood apple white ship-grey pomegranate athens-gray iron minsk fun-blue trinidad shark shark-jaws rolling-stone bombay mischka athens-gray-zeus forest-green monza carrot-orange pickled-bluewood-darker cloud-burst picton-blue-darker lipstick deep-blush ocean-green teal black;
+$colour-names: dark-blue blue light-blue purple pink light-pink orange yellow blue-grey green white ship-grey red athens-gray iron purple-tint blue-tint orange-tint shark shark-jaws rolling-stone bombay mischka athens-gray-zeus green-tint red-tint yellow-tint blue-grey-tint dark-blue-tint light-blue-tint pink-tint light-pink-tint teal teal-tint black;
 
-$colour-vars: $astronaut $denim $picton-blue $royal-purple $cerise $mauvelous $flamingo $saffron $pickled-bluewood $apple $white $ship-grey $pomegranate $athens-gray $iron $minsk $fun-blue $trinidad $shark $shark-jaws $rolling-stone $bombay $mischka $athens-gray-zeus $forest-green $monza $carrot-orange $pickled-bluewood-darker $cloud-burst $picton-blue-darker $lipstick $deep-blush $ocean-green $teal $black; 
+$colour-vars: $dark-blue $blue $light-blue $purple $pink $light-pink $orange $yellow $blue-grey $green $white $ship-grey $red $athens-gray $iron $purple-tint $blue-tint $orange-tint $shark $shark-jaws $rolling-stone $bombay $mischka $athens-gray-zeus $green-tint $red-tint $yellow-tint $blue-grey-tint $dark-blue-tint $light-blue-tint $pink-tint $light-pink-tint $teal $teal-tint $black;

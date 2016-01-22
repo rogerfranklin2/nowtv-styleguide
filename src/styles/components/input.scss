@@ -10,7 +10,7 @@
   outline: none;
 
   &:focus {
-    border-color: $apple;
+    border-color: $green;
     color: $black;
   }
 
@@ -20,22 +20,22 @@
 
   &.error {
     background: url(../icons/red-input-exclamation-no-bg.svg) no-repeat right 10px center;
-    color: $monza;
-    border-color: $monza;
+    color: $red-tint;
+    border-color: $red-tint;
 
     &::-webkit-input-placeholder {      /* WebKit, Blink, Edge */
-      color:    $monza;
+      color:    $red-tint;
     }
     &:-moz-placeholder {                /* Mozilla Firefox 4 to 18 */
-       color:    $monza;
+       color:    $red-tint;
        opacity:  1;
     }
     &::-moz-placeholder {               /* Mozilla Firefox 19+ */
-       color:    $monza;
+       color:    $red-tint;
        opacity:  1;
     }
     &:-ms-input-placeholder {           /* Internet Explorer 10-11 */
-       color:    $monza;
+       color:    $red-tint;
     }
   }
 
@@ -44,7 +44,7 @@
   }
 
   + .error {
-    color: $monza;
+    color: $red-tint;
     font-size: 16px;
   }
 }
