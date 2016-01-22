@@ -1,4 +1,4 @@
-# nowtv-stylguide [![Circle CI](https://circleci.com/gh/sky-uk/nowtv-styleguide.svg?style=svg)](https://circleci.com/gh/sky-uk/nowtv-styleguide)
+# nowtv-styleguide [![Circle CI](https://circleci.com/gh/sky-uk/nowtv-styleguide.svg?style=svg)](https://circleci.com/gh/sky-uk/nowtv-styleguide)
 
  > A set of basic styles
 
