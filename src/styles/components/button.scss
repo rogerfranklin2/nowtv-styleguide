@@ -17,8 +17,24 @@
   @extend %button_primary_yellow;
 }
 
+.now-button_primary_dark-blue {
+  @extend %button_primary_dark-blue;
+}
+
 .now-button_primary_blue {
   @extend %button_primary_blue;
+}
+
+.now-button_primary_purple {
+  @extend %button_primary_purple;
+}
+
+.now-button_primary_orange {
+  @extend %button_primary_orange;
+}
+
+.now-button_primary_pink {
+  @extend %button_primary_pink;
 }
 
 .now-button_primary_green {
@@ -45,8 +61,8 @@
   @extend %button_secondary_yellow;
 }
 
-.now-button_secondary_blue {
-  @extend %button_secondary_blue;
+.now-button_secondary_dark-blue {
+  @extend %button_secondary_dark-blue;
 }
 
 .now-button_secondary_grey {
