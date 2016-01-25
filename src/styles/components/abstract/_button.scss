@@ -45,9 +45,29 @@
   background-color: $red;
 }
 
-%button_primary_blue {
+%button_primary_purple {
+  @extend %button;
+  background-color: $purple;
+}
+
+%button_primary_orange {
+  @extend %button;
+  background-color: $orange;
+}
+
+%button_primary_pink {
+  @extend %button;
+  background-color: $pink;
+}
+
+%button_primary_dark-blue {
   @extend %button;
   background-color: $dark-blue;
+}
+
+%button_primary_blue {
+  @extend %button;
+  background-color: $blue;
 }
 
 %button_primary_yellow {
@@ -104,13 +124,23 @@
   }
 }
 
-%button_secondary_blue {
+%button_secondary_dark-blue {
   @extend %button;
   color: $dark-blue;
   border:2px solid currentColor;
   background-color: transparent;
   &:hover, &.is-hovered{
     color: $dark-blue;
+  }
+}
+
+%button_secondary_blue {
+  @extend %button;
+  color: $blue;
+  border:2px solid currentColor;
+  background-color: transparent;
+  &:hover, &.is-hovered{
+    color: $blue;
   }
 }
 
