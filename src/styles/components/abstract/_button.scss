@@ -134,6 +134,16 @@
   }
 }
 
+%button_secondary_blue {
+  @extend %button;
+  color: $blue;
+  border:2px solid currentColor;
+  background-color: transparent;
+  &:hover, &.is-hovered{
+    color: $blue;
+  }
+}
+
 %button_secondary_grey {
   @extend %button;
   color: $iron;

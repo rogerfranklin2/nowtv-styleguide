@@ -65,6 +65,10 @@
   @extend %button_secondary_dark-blue;
 }
 
+.now-button_secondary_blue {
+  @extend %button_secondary_blue;
+}
+
 .now-button_secondary_grey {
   @extend %button_secondary_grey;
 }
