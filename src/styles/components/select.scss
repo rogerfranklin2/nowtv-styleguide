@@ -33,6 +33,10 @@
     color: $red-tint;
     font-size: 16px;
   }
+  
+  &::-ms-expand {
+    display: none;
+  }
 }
 
 .now-multiline-select {
